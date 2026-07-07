@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brownie Blog</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Benvenuti su Brownie Blog - il primo blog di condivisione della cucina gratis!</h1>
+    <div id="message" role="status" aria-live="polite"></div>
+
+    <div id="registrati">
+        <label for="username">Username:</label>
+        <br>
+        <input type="text" id="username" name="username">
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="password">Password:</label>
+
+        <br>
+        <input type="password" id="password" name="password">
+        <br>
+        <label for="name">Nome:</label>
+        <br>
+        <input type="text" id="name" name="name">
+        
+        <br>
+
+        <label for="birthDate">Data di Nascita:</label>
+        <br>
+        <input type="date" id="birthDate" name="birthDate">
+        <br>
+
+        <button type="button" onclick="registerUser()">Registrati</button>
+    </div>
+
+    <div id="login">
+        <label for="loginEmail">Email:</label>
+        <br>
+        <input type="email" id="loginEmail" name="loginEmail">
+        <br>
+
+        <label for="loginPassword">Password:</label>
+        <br>
+        <input type="password" id="loginPassword" name="loginPassword">
+        <br>
+        <button type="button" onclick="loginUser()">Login</button>
+    </div>
+</body>
+
+</html>
